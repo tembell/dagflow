@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/tembell/dagflow.git"
   },
-  "description": "🐟 A DAG (Directed Acyclic Graph) UI flow management library for React",
+  "description": "🐟 A DAG (Directed Acyclic Graph) UI flow management library",
   "author": "Ariel Benichou",
   "license": "MIT",
   "packageManager": "pnpm@9.15.0",
