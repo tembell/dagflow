@@ -1,0 +1,147 @@
+[
+  {
+    "id": "fire",
+    "title": "Choose Your Element",
+    "description": "Control and generate flames",
+    "options": [
+      { 
+        "id": "internal-fire", 
+        "label": "Internal Flame", 
+        "description": "Generate fire from your own life force",
+        "followUpQuestion": "internal-fire-control"
+      },
+      { 
+        "id": "cosmic-fire", 
+        "label": "Cosmic Flame", 
+        "description": "Channel the fire of stars",
+        "followUpQuestion": "cosmic-fire-source"
+      }
+    ]
+  },
+  {
+    "id": "internal-fire-control",
+    "title": "Internal Flame Control",
+    "description": "Master your inner fire",
+    "options": [
+      {
+        "id": "meditation",
+        "label": "Through Meditation",
+        "description": "Calm and controlled flames",
+        "followUpQuestion": "meditation-style"
+      },
+      {
+        "id": "martial",
+        "label": "Through Martial Arts",
+        "description": "Combat-focused flames",
+        "followUpQuestion": "martial-style"
+      }
+    ]
+  },
+  {
+    "id": "meditation-style",
+    "title": "Meditation Focus",
+    "description": "Choose your meditation approach",
+    "options": [
+      {
+        "id": "breath",
+        "label": "Breath Control",
+        "description": "Precise, small flames"
+      },
+      {
+        "id": "emotion",
+        "label": "Emotional Energy",
+        "description": "Intense, passionate bursts"
+      },
+      {
+        "id": "mind",
+        "label": "Mental Discipline",
+        "description": "Complex flame patterns"
+      }
+    ]
+  },
+  {
+    "id": "martial-style",
+    "title": "Combat Style",
+    "description": "Choose your fighting approach",
+    "options": [
+      {
+        "id": "aggressive",
+        "label": "Aggressive Strikes",
+        "description": "Direct flame attacks"
+      },
+      {
+        "id": "defensive",
+        "label": "Flame Shield",
+        "description": "Protective fire barriers"
+      },
+      {
+        "id": "acrobatic",
+        "label": "Fire Dance",
+        "description": "Agile flame techniques"
+      }
+    ]
+  },
+  {
+    "id": "cosmic-fire-source",
+    "title": "Cosmic Source",
+    "description": "Choose your stellar power source",
+    "options": [
+      {
+        "id": "solar",
+        "label": "Solar Fire",
+        "description": "The power of our sun",
+        "followUpQuestion": "solar-application"
+      },
+      {
+        "id": "stellar",
+        "label": "Stellar Fire",
+        "description": "The power of distant stars",
+        "followUpQuestion": "stellar-type"
+      }
+    ]
+  },
+  {
+    "id": "solar-application",
+    "title": "Solar Energy Usage",
+    "description": "How do you harness the sun's power?",
+    "options": [
+      {
+        "id": "heat",
+        "label": "Pure Heat",
+        "description": "Overwhelming thermal energy"
+      },
+      {
+        "id": "light",
+        "label": "Solar Light",
+        "description": "Brilliant light attacks"
+      },
+      {
+        "id": "radiation",
+        "label": "Solar Radiation",
+        "description": "Complex energy manipulation"
+      }
+    ]
+  },
+  {
+    "id": "stellar-type",
+    "title": "Star Power Type",
+    "description": "Which stellar force do you command?",
+    "options": [
+      {
+        "id": "white-dwarf",
+        "label": "White Dwarf",
+        "description": "Dense, concentrated power"
+      },
+      {
+        "id": "red-giant",
+        "label": "Red Giant",
+        "description": "Expansive, overwhelming force"
+      },
+      {
+        "id": "neutron",
+        "label": "Neutron Star",
+        "description": "Intense gravitational control"
+      }
+    ]
+  }
+] 
