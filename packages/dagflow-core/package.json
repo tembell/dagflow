@@ -1,0 +1,24 @@
+{
+  "name": "@tembell/dagflow-core",
+  "version": "0.0.1",
+  "description": "Core engine for DAG flow management",
+  "author": "Tembell",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1"
+  }
+} 

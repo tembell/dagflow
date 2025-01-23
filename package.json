@@ -1,0 +1,38 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tembell/dagflow.git"
+  },
+  "description": "🐟 A DAG (Directed Acyclic Graph) UI flow management library for React",
+  "author": "Ariel Benichou",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "nx run-many --target=build",
+    "dev": "nx run-many --target=dev --parallel=true",
+    "test": "nx run-many --target=test",
+    "lint": "nx run-many --target=lint",
+    "clean": "nx run-many --target=clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@nx/workspace": "latest",
+    "nx": "latest",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "husky": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
